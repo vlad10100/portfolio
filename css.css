@@ -1,0 +1,66 @@
+@charset "utf-8":
+/*css document*/
+
+body{
+	margin: 0;
+	overflow: hidden;
+	background-color: #f7f7f2;
+	position: relative;
+}
+
+#section1 {padding-top:150px;height:100vh;}
+#About {padding-top:70px;height:100vh;}
+#Projects {padding-top:70px;height:150vh;}
+#Skills {padding-top:70px;height:110vh;}
+#Contact {padding-top:30px;height:30vh; background-color: #292929;}
+
+
+
+.title{
+	height: 50px;
+	overflow: hidden;
+
+}
+.title-wrap{
+	height: 100%;
+	animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move{
+	25%{ transform: translateY(-50px) }
+	50%{ transform: translateY(-100px) }
+	75%{ transform: translateY(-150px) }
+	100%{ transform: translateY(-200px) }
+}
+
+.title-item{
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffb700;
+	display: flex;
+	align-items: center;
+}
+
+.cv-btn{	
+	width: 200px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #292929;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+}
+.cv-btn:hover{
+	background-color: #fca311;
+	transition: all ease 0.7s;
+	color: black;
+	font-weight: bolder;
+}
+
+.contacts{
+	display: flex;
+	justify-content: space-evenly;
+}
+
