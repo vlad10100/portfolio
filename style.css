@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* padding-top: 50px; */
+    background-color: rgb(235, 235, 235);
+    font-family: 'Courier Prime', monospace;
+    
+}
+
+section{
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* NAVBAR */
+header{
+    color: blue;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(245, 245, 245, 0.781);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+    top: 0
+}
+
+nav{
+    text-align: right;
+    padding: 25px 60px 10px 0px;
+}
+nav a{
+    font-size: 25px;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a.active,
+nav a:hover{
+    color: #c1df1f;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/* HOME */
+.home{
+    color: black;
+    background-color: #c1df1f;
+    
+    text-align: left;
+    height: 80vh;
+    margin: 0px 50px;
+    padding-left: 90px;
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+    border-radius: 30px;
+    cursor:default
+} 
+
+.home h1{
+    padding-top: 200px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.wrapper .static{
+    color: black;
+    
+}
+
+.wrapper .dynamic{
+    margin: 0px;
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+
+}
+
+.dynamic li{
+    list-style: none;
+    text-align: left;
+    
+}
+
+.dynamic span{
+    top: 0;
+    color: #08472b;
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+    animation: slide 15s steps(5) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -250px;
+    }
+}
+
+
+.dynamic span::after{
+    content: "";
+    position: absolute;
+    background-color: #c1df1f;
+    left: 0;
+    height: 120%;
+    width: 100%;
+    border-left: 3px solid #0c6c40;
+    animation: typing 3s steps(19) infinite;
+}
+
+@keyframes typing{
+    40%, 60%{
+        left: calc(100% + 10px);
+    }
+    100%{
+        left: 0;
+    }
+}
+
+
+.home .softwares{
+    padding-top: 120px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.home img{
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT */
+.about{
+    color: black;
+    height: 100vh;
+    margin: 0px 50px;
+    padding: 0px 100px;
+    display: flex;
+}
+
+.content{
+    padding-right: 0px 50px;
+    text-align: justify;
+}
+.gif{
+    padding-left: 50px;
+}
+
+
+.about h2{
+    margin-top: 150px;
+    font-size: 35px;
+}
+
+.about .about-p1{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+.about .gif{
+    position: relative;
+    top: 170px;
+}
+.gif img{
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECTS */
+
+.projects{
+
+    margin: 0px 50px;
+    padding: 10px 100px 10px 100px;
+}
+
+
+
+
+.projects h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+}
+
+.category{
+    padding-left: 20px;
+}
+.mech{
+    color: rgb(136, 23, 23);
+}
+.web{
+    padding-top: 100px;
+    color: #082e1d;
+}
+
+.category h3{
+    font-size: 30px;
+    padding: 0px;
+}
+.category hr{
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.project{
+    /* border: solid black 1px; */
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.project .content{
+    /* color: blue; */
+    text-align: justify;
+    padding: 20px 20px;
+}
+
+.content h2{
+    padding: 0px;
+}
+.content hr{
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 2px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+#scpp, #todo, #bike, #pen, #fluid, #salary{
+    width: 450px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(19, 68, 68);
+    margin: 100px 0px 0px 0px;
+    padding: 20px 200px 20px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-png {
+    height: 70px;
+}
+
+.logo-contacts img{
+    height: 40px;
+}
