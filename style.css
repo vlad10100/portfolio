@@ -939,7 +939,7 @@ nav a:hover{
 @media (max-width:435px){
 
     #check:checked ~ nav{
-        height: 180px;
+        height: 30vh;
         color:black;
         margin-top: 15px;
     }
