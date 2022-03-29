@@ -939,7 +939,7 @@ nav a:hover{
 @media (max-width:435px){
 
     #check:checked ~ nav{
-        height: 30vh;
+        height: 600px;
         color:black;
         margin-top: 15px;
     }
@@ -1039,6 +1039,7 @@ nav a:hover{
 
     .personal p{
         font-size: 15px;
+        text-align: justify;
     }
 
     .personal .gif{
