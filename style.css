@@ -699,13 +699,13 @@ nav a:hover{
 
 
     .home .softwares{
-        padding-top: 40px;
+        padding-top: 60px;
         text-align: center;
     }
     
     .home img{
-        height: 40px;
-        padding: 0px 20px;
+        height: 33px;
+        padding: 0px 0px;
     }
     
     /* END HOME */
