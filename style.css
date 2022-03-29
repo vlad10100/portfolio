@@ -641,7 +641,7 @@ nav a:hover{
 @media (max-width:550px){
     /* NAV */
     #check:checked ~ nav{
-        height: 30vh;
+        height: 500px;
         color:black;
         margin-top: 15px;
     }
@@ -699,7 +699,7 @@ nav a:hover{
 
 
     .home .softwares{
-        padding-top: 60px;
+        padding-top: 40px;
         text-align: center;
     }
     
