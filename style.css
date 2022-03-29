@@ -701,6 +701,7 @@ nav a:hover{
     .home .softwares{
         padding-top: 60px;
         text-align: center;
+        padding-right: 0px;
     }
     
     .home img{
