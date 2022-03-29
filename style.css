@@ -204,10 +204,13 @@ nav a:hover{
     font-size: 35px;
 }
 
-.personal .about-p1{
-    padding-top: 10px;
-    padding-bottom: 20px;
+#about-p1{
+    padding-top: 0px;
     font-size: 25px;
+}
+#location{
+    padding-bottom: 30px;
+    font-size: 20px;
 }
 
 .personal p{
@@ -216,7 +219,7 @@ nav a:hover{
 
 .personal .gif{
     position: relative;
-    top: 170px;
+    top: 140px;
 }
 .gif img{
     border-radius: 15px;
@@ -254,6 +257,7 @@ nav a:hover{
 
 .slider{
     margin-left: 50px;
+    margin-top: 20px;
     width: 600px;
     height: 500px;
     border-radius: 15px;
@@ -402,7 +406,9 @@ nav a:hover{
     padding-top: 20px;
 }
 
-
+#link{
+    padding-top: 20px;
+}
 
 
 
@@ -415,10 +421,14 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+    border-top: solid #c1df1f 10px;
 }
 
 #logo-png {
     height: 70px;
+    
 }
 
 .logo-contacts img{
