@@ -937,9 +937,9 @@ nav a:hover{
 
 
 @media (max-width:435px){
-    /* NAV */
+
     #check:checked ~ nav{
-        height: 30vh;
+        height: 180px;
         color:black;
         margin-top: 15px;
     }
@@ -959,19 +959,19 @@ nav a:hover{
         background-color: #c1df1f;
         
         text-align: left;
-        height: 80vh;
-        margin: 0px 50px;
+        height: 50vh;
+        margin: 0px 10px;
         padding: 0px 10px;
         font-size: 30px;
         position: relative;
-        top: 70px;
+        top: 180px;
         border-radius: 30px;
         cursor:default
     } 
     
     .home h1{
         font-size: 30px;
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .wrapper .static{
@@ -998,13 +998,14 @@ nav a:hover{
 
 
     .home .softwares{
-        padding-top: 30px;
-        text-align: right;
+        padding-top: 60px;
+        text-align: center;
+        padding-right: 0px;
     }
     
     .home img{
-        height: 40px;
-        padding: 0px 10px;
+        height: 33px;
+        padding: 0px 0px;
     }
     
 
