@@ -665,7 +665,7 @@ nav a:hover{
         padding: 0px 10px;
         font-size: 30px;
         position: relative;
-        top: 200px;
+        top: 180px;
         border-radius: 30px;
         cursor:default
     } 
@@ -699,7 +699,7 @@ nav a:hover{
 
 
     .home .softwares{
-        padding-top: 80px;
+        padding-top: 60px;
         text-align: center;
     }
     
