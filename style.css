@@ -641,7 +641,7 @@ nav a:hover{
 @media (max-width:550px){
     /* NAV */
     #check:checked ~ nav{
-        height: 500px;
+        height: 180px;
         color:black;
         margin-top: 15px;
     }
@@ -936,7 +936,7 @@ nav a:hover{
 
 
 
-@media (max-width:420px){
+@media (max-width:435px){
     /* NAV */
     #check:checked ~ nav{
         height: 30vh;
