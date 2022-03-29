@@ -408,20 +408,8 @@ nav a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
-    background-color: rgb(19, 68, 68);
+    background-color: rgb(46, 46, 46);
     margin: 100px 0px 0px 0px;
     padding: 20px 200px 20px 200px;
     display: flex;
@@ -436,6 +424,20 @@ nav a:hover{
 .logo-contacts img{
     height: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -639,7 +641,7 @@ nav a:hover{
 @media (max-width:550px){
     /* NAV */
     #check:checked ~ nav{
-        height: 30vh;
+        height: 20vh;
         color:black;
         margin-top: 15px;
     }
@@ -651,27 +653,26 @@ nav a:hover{
         padding-top: 20px;
     }
 
-
-
+   
     /* HOME */
     .home{
         color: black;
         background-color: #c1df1f;
         
         text-align: left;
-        height: 80vh;
-        margin: 0px 50px;
+        height: 50vh;
+        margin: 0px 10px;
         padding: 0px 10px;
         font-size: 30px;
         position: relative;
-        top: 70px;
+        top: 200px;
         border-radius: 30px;
         cursor:default
     } 
     
     .home h1{
         font-size: 30px;
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .wrapper .static{
@@ -698,15 +699,18 @@ nav a:hover{
 
 
     .home .softwares{
-        padding-top: 30px;
-        text-align: right;
+        padding-top: 80px;
+        text-align: center;
     }
     
     .home img{
-        height: 40px;
-        padding: 0px 10px;
+        height: 60px;
+        padding: 0px 20px;
     }
     
+    /* END HOME */
+
+
 
 
 
@@ -744,14 +748,13 @@ nav a:hover{
         position: relative;
         top: 20px;
         padding: 0px;
+
+        text-align: center;
     }
     .gif img{
-        width: 300px;
+        width: 400px;
         border-radius: 15px;
-        
     }
-
-
 
 
 
@@ -760,8 +763,7 @@ nav a:hover{
     .org{
         position: relative;
         top: 100px;
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
 
     .member{
@@ -785,21 +787,24 @@ nav a:hover{
     .slider{
         margin-left: 0px;
         margin-top: 20px;
-        width: 319px;
-        height: 255px;
+        width: 400px;
+        height: 320px;
         border-radius: 15px;
         overflow: hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .slide img{
-        width: 319px;
-        height: 255px;
+        width: 400px;
+        height: 320px;
     }   
     
     .navigation-manual{
         position: absolute;
-        width: 319px;
-        margin-top: -520px;
+        width: 400px;
+        margin-top: -480px;
         display: flex;
         justify-content: center;
     }
@@ -877,8 +882,12 @@ nav a:hover{
     }
     
     #scpp, #todo, #bike, #pen, #fluid, #salary{
-        width: 320px;
+        width: 400px;
         padding-top: 20px;
+        padding-bottom: 40px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
     
 
@@ -888,7 +897,7 @@ nav a:hover{
 
 
     .footer{
-        background-color: rgb(19, 68, 68);
+        background-color: rgb(46, 46, 46);
         margin: 100px 0px 0px 0px;
         padding: 20px 10px 20px 10px;
         display: flex;
@@ -1177,7 +1186,7 @@ nav a:hover{
 
 
     .footer{
-        background-color: rgb(19, 68, 68);
+        background-color: rgb(46, 46, 46);
         margin: 100px 0px 0px 0px;
         padding: 20px 10px 20px 10px;
         display: flex;
