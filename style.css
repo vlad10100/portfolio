@@ -51,6 +51,11 @@ nav a:hover{
     font-weight: 600;
 }
 
+.hamburger, #check {
+    display: none;
+}
+
+
 
 
 
@@ -437,4 +442,475 @@ nav a:hover{
 
 
 
+@media (max-width: 1000px){
+    header{
+        position: fixed;
+    }
+    nav{
+        height: 60px;
+    }
+    nav a{
+        display:none;
+    }
 
+    #check:checked ~ nav{
+        height: 30vh;
+        color:black;
+        margin-top: 30px;
+    }
+    #check:checked ~ nav a{
+        display: flex;
+        justify-content: right;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+
+    .hamburger {
+        padding: 20px 30px;
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+        outline: none;
+        position: absolute;
+        right: 0px;
+        
+    }
+    
+    .hamburger span {
+        display: block;
+        width: 33px;
+        height: 5px;
+        margin-bottom: 5px;
+        border-radius: 4px;
+        background-color: #c1df1f;
+        z-index: 1;
+    }
+
+
+    .about{
+        padding: 0px;
+    }
+    .content{
+        text-align: initial;
+    }
+    .personal h2{
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .personal .about-p1{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .personal p{
+        font-size: 15px;
+    }
+
+    .personal .gif{
+        position: relative;
+        top: 100px;
+    }
+    .gif img{
+        width: 400px;
+        border-radius: 15px;
+    }
+
+
+
+
+
+    .member{
+        text-align: justify;
+    }
+    .member h2{
+        font-size: 25px;
+        padding-top: 10px;
+        letter-spacing: 10px;
+    }
+    
+    #hiraya{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    .member p{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .slider{
+        margin-left: 50px;
+        width: 450px;
+        height: 360px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    
+    .slide img{
+        width: 450px;
+        height: 360px;
+    }   
+    
+    .navigation-manual{
+        position: absolute;
+        width: 450px;
+        margin-top: -430px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+
+
+    .projects{
+
+        margin: 0px 50px;
+        padding: 10px 0px;
+    }
+    
+    
+    .projects h2{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        font-size: 30px;
+        letter-spacing: 3px;
+    
+    }
+    
+    .category{
+        padding-left: 20px;
+    }
+    .mech{
+        color: rgb(136, 23, 23);
+    }
+    .web{
+        padding-top: 100px;
+        color: #082e1d;
+    }
+    
+    .category h3{
+        font-size: 30px;
+        padding: 0px;
+    }
+    .category hr{
+        margin: 0px 0px 20px 0px;
+        padding-bottom: 3px;
+        border: none;
+        border-radius: 3px;
+        background-color: black;
+    }
+    
+    .project{
+        margin-bottom: 20px;
+        display: flex;
+    }
+    
+    .project .content{
+        padding: 20px 20px;
+    }
+    
+    .content h2{
+        padding: 0px;
+        font-size: 25px;
+    }
+    .content hr{
+        margin: 0px 0px 20px 0px;
+        padding-bottom: 2px;
+        background-color: rgb(0, 0, 0);
+        border: none;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    
+    #scpp, #todo, #bike, #pen, #fluid, #salary{
+        width: 300px;
+        padding-top: 20px;
+    }
+    
+}
+
+
+@media (max-width:420px){
+    /* NAV */
+    #check:checked ~ nav{
+        height: 30vh;
+        color:black;
+        margin-top: 15px;
+    }
+    #check:checked ~ nav a{
+        font-size: 20px;
+        display: flex;
+        justify-content: right;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+
+
+
+    /* HOME */
+    .home{
+        color: black;
+        background-color: #c1df1f;
+        
+        text-align: left;
+        height: 80vh;
+        margin: 0px 50px;
+        padding: 0px 10px;
+        font-size: 30px;
+        position: relative;
+        top: 70px;
+        border-radius: 30px;
+        cursor:default
+    } 
+    
+    .home h1{
+        font-size: 30px;
+        padding-top: 250px;
+    }
+
+    .wrapper .static{
+        font-size: 15px;
+    }
+    .wrapper .dynamic{
+        margin: 0px;
+        line-height: 20px;
+        height: 20px;
+        overflow: hidden;
+    }
+    
+    .dynamic li{
+        list-style: none;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    @keyframes slide{
+        100%{
+            top: -100px;
+        }
+    }
+
+
+    .home .softwares{
+        padding-top: 30px;
+        text-align: right;
+    }
+    
+    .home img{
+        height: 40px;
+        padding: 0px 10px;
+    }
+    
+
+
+
+    /* ABOUT */
+    .about{
+        padding: 0px;
+    }
+    .content{
+        text-align: initial;
+    }
+
+    .personal{
+        display: flex;
+        height: 500px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .personal h2{
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .personal .about-p1{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .personal p{
+        font-size: 15px;
+    }
+
+    .personal .gif{
+        position: relative;
+        top: 20px;
+        padding: 0px;
+    }
+    .gif img{
+        width: 300px;
+        border-radius: 15px;
+        
+    }
+
+
+
+
+
+
+
+    .org{
+        position: relative;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member{
+        text-align: justify;
+    }
+    .member h2{
+        font-size: 25px;
+        padding-top: 10px;
+        letter-spacing: 10px;
+    }
+    
+    #hiraya{
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    .member p{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .slider{
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 319px;
+        height: 255px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    
+    .slide img{
+        width: 319px;
+        height: 255px;
+    }   
+    
+    .navigation-manual{
+        position: absolute;
+        width: 319px;
+        margin-top: -520px;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+
+
+
+    .projects{
+        margin: 0px 50px;
+        padding: 10px 0px;
+    }
+    
+    
+    .projects h2{
+        padding-top: 250px;
+        padding-bottom: 50px;
+        font-size: 30px;
+        letter-spacing: 3px;
+    
+    }
+    
+    .category{
+        padding-left: 0px;
+    }
+    .mech{
+        color: rgb(136, 23, 23);
+        
+    }
+    .web{
+        padding-top: 100px;
+        color: #082e1d;
+    }
+    
+    .category h3{
+        font-size: 25px;
+        padding: 0px;
+    }
+    .category hr{
+        margin: 0px;
+        margin-bottom: 20px;
+        padding-bottom: 3px;
+        border: none;
+        border-radius: 3px;
+        background-color: black;
+    }
+    
+    .project{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project .content{
+        padding: 20px 0px;
+    }
+    
+    .content h2{
+        padding: 0px;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .content h4{
+        font-size: 14px;
+    }
+    .content hr{
+        margin: 0px 0px 20px 0px;
+        padding-bottom: 2px;
+        background-color: rgb(0, 0, 0);
+        border: none;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    
+    #scpp, #todo, #bike, #pen, #fluid, #salary{
+        width: 320px;
+        padding-top: 20px;
+    }
+    
+
+
+   
+
+
+
+    .footer{
+        background-color: rgb(19, 68, 68);
+        margin: 100px 0px 0px 0px;
+        padding: 20px 10px 20px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+
+    #logo-png {
+        height: 50px;
+    }
+
+    .logo-contacts{
+        text-align: center;
+    }
+
+    .logo-contacts img{
+        height: 20px;
+    }
+
+
+
+
+
+
+}
