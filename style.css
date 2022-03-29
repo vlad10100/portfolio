@@ -641,7 +641,7 @@ nav a:hover{
 @media (max-width:550px){
     /* NAV */
     #check:checked ~ nav{
-        height: 20vh;
+        height: 30vh;
         color:black;
         margin-top: 15px;
     }
@@ -704,7 +704,7 @@ nav a:hover{
     }
     
     .home img{
-        height: 60px;
+        height: 40px;
         padding: 0px 20px;
     }
     
@@ -752,7 +752,7 @@ nav a:hover{
         text-align: center;
     }
     .gif img{
-        width: 400px;
+        width: 342px;
         border-radius: 15px;
     }
 
@@ -787,8 +787,8 @@ nav a:hover{
     .slider{
         margin-left: 0px;
         margin-top: 20px;
-        width: 400px;
-        height: 320px;
+        width: 342px;
+        height: 274px;
         border-radius: 15px;
         overflow: hidden;
         display: block;
@@ -797,14 +797,14 @@ nav a:hover{
     }
     
     .slide img{
-        width: 400px;
-        height: 320px;
+        width: 342px;
+        height: 274px;
     }   
     
     .navigation-manual{
         position: absolute;
-        width: 400px;
-        margin-top: -480px;
+        width: 342px;
+        margin-top: -520px;
         display: flex;
         justify-content: center;
     }
@@ -882,7 +882,7 @@ nav a:hover{
     }
     
     #scpp, #todo, #bike, #pen, #fluid, #salary{
-        width: 400px;
+        width: 342px;
         padding-top: 20px;
         padding-bottom: 40px;
         display: block;
@@ -906,6 +906,7 @@ nav a:hover{
     }
     .footer p{
         font-size: 15px;
+        color: rgb(204, 204, 204);
     }
 
     #logo-png {
