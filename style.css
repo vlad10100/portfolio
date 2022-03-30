@@ -749,6 +749,7 @@ nav a:hover{
         padding-top: 10px;
         padding-bottom: 20px;
         font-size: 20px;
+        text-align: initial;
     }
 
     .personal p{
@@ -1041,11 +1042,15 @@ nav a:hover{
         font-size: 25px;
     }
 
-    .personal .about-p1{
-        padding-top: 10px;
-        padding-bottom: 20px;
-        font-size: 20px;
+    .personal #about-p1{
+        font-size: 18px;
     }
+    #location{
+        font-size: 15px;
+    }
+
+
+    
 
     .personal p{
         font-size: 15px;
@@ -1111,7 +1116,7 @@ nav a:hover{
     .navigation-manual{
         position: absolute;
         width: 319px;
-        margin-top: -520px;
+        margin-top: -540px;
         display: flex;
         justify-content: center;
     }
