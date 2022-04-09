@@ -1121,14 +1121,14 @@ nav a:hover{
     .slider{
         margin-left: 0px;
         margin-top: 20px;
-        width: 330px;
+        width: 350px;
         height: 264px;
         border-radius: 15px;
         overflow: hidden;
     }
     
     .slide img{
-        width: 330px;
+        width: 350px;
         height: 264px;
     }   
     
