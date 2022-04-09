@@ -1081,7 +1081,7 @@ nav a:hover{
         padding: 0px;
     }
     .gif img{
-        width: 300px;
+        width: 330px;
         border-radius: 15px;
         
     }
@@ -1121,20 +1121,20 @@ nav a:hover{
     .slider{
         margin-left: 0px;
         margin-top: 20px;
-        width: 319px;
-        height: 255px;
+        width: 330px;
+        height: 264px;
         border-radius: 15px;
         overflow: hidden;
     }
     
     .slide img{
-        width: 319px;
-        height: 255px;
+        width: 330px;
+        height: 264px;
     }   
     
     .navigation-manual{
         position: absolute;
-        width: 319px;
+        width: 330px;
         margin-top: -540px;
         display: flex;
         justify-content: center;
@@ -1213,7 +1213,7 @@ nav a:hover{
     }
     
     #scpp, #todo, #bike, #pen, #fluid, #salary{
-        width: 320px;
+        width: 340px;
         padding-top: 20px;
     }
     
@@ -1240,7 +1240,7 @@ nav a:hover{
     }
 
     .logo-contacts{
-        text-align: center;
+        text-align: left;
     }
 
     .logo-contacts img{
