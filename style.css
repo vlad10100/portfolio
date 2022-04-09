@@ -1026,8 +1026,9 @@ nav a:hover{
 
 
     .home .softwares{
-        position: absolute;
-        bottom: 40px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .home img{
